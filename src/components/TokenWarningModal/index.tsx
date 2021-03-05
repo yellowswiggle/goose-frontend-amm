@@ -115,7 +115,7 @@ export default function TokenWarningModal({
             when interacting with arbitrary BEP20 tokens.
           </Text>
           <Text>
-            If you purchase an arbitrary token, <strong>you may be unable to sell it back.</strong> so maybe buy a teeny tiny bit of it to sell back and test the waters huh? Don't give them scam scoundrels more than a cent ahahaha.
+            If you purchase an arbitrary token, <strong>you may be unable to sell it back.</strong> so buy a little to test the water.
           </Text>
           {tokens.map((token) => {
             return <TokenWarningCard key={token.address} token={token} />
