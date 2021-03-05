@@ -108,14 +108,14 @@ export default function TokenWarningModal({
           </AutoRow>
           <Text>
             Anyone can create an BEP20 token on BSC with <em>any</em> name, including creating fake versions of existing
-            tokens and tokens that claim to represent projects that do not have a token.
+            tokens and tokens that claim to represent projects that do not have a token. You take care of yourself now buddy! 
           </Text>
           <Text>
             This interface can load arbitrary tokens by token addresses. Please take extra caution and do your research
             when interacting with arbitrary BEP20 tokens.
           </Text>
           <Text>
-            If you purchase an arbitrary token, <strong>you may be unable to sell it back.</strong>
+            If you purchase an arbitrary token, <strong>you may be unable to sell it back.</strong> so maybe buy a teeny tiny bit of it to sell back and test the waters huh? Don't give them scam scoundrels more than a cent ahahaha.
           </Text>
           {tokens.map((token) => {
             return <TokenWarningCard key={token.address} token={token} />
